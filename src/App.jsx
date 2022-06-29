@@ -1,19 +1,26 @@
-import { useContext } from "react";
-import { ProductsContext } from "./Providers/Produtos";
+import { Home } from "./Pages/Home";
+import GlobalStyle from "./Styles/global";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 function App() {
-  const { products, setpProduts } = useContext(ProductsContext);
-
   return (
     <>
-      <div>NarutoFunkoShop</div>
-      {products.map((produto, index) => (
-        <li key={index}>
-          <img src={produto.image} alt="funko-Naruto" />
-          <p>{produto.name}</p>
-          <button>Adicionar ao carrinho</button>
-        </li>
-      ))}
+      <GlobalStyle />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+      {/* Same as */}
+      <ToastContainer />
+      <Home />
     </>
   );
 }

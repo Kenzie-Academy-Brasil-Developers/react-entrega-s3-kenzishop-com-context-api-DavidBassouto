@@ -10,7 +10,7 @@ export const CarrinhoProvider = ({ children }) => {
   };
 
   //lógica para remover
-  const removeCarinho = (item) => {
+  const removeCarrinho = (item) => {
     const novoCarrinho = carrinho.filter(
       (itemOnCart) => itemOnCart.name !== item.name
     );
@@ -19,7 +19,7 @@ export const CarrinhoProvider = ({ children }) => {
 
   return (
     <CarrinhoContext.Provider
-      value={{ carrinho, setCarrinho, addCarrinho, removeCarinho }}
+      value={{ carrinho, setCarrinho, addCarrinho, removeCarrinho }}
     >
       {children}
     </CarrinhoContext.Provider>

@@ -9,17 +9,20 @@ const productsAPI = [
   {
     name: "Funko Pop - Animation: Naruto Shippuden Kakashi (Raikiri)",
     price: 138.0,
-    image: "https://m.media-amazon.com/images/I/51qrmq+JbLL._AC_SX522_.jpg",
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_865263-MLB49651190361_042022-O.webp",
   },
   {
     name: "Funko Pop - Sasuke Vs. Naruto Anime Moments",
-    price: 338.0,
-    image: "https://m.media-amazon.com/images/I/51axSLjvhgL._AC_SX522_.jpg",
+    price: 438.0,
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_963471-MLB49853464392_052022-O.webp",
   },
   {
     name: "Funko Pop - Rides: Jiraiya on Toad",
     price: 296.0,
-    image: "https://m.media-amazon.com/images/I/71gJ1ZKFVJL._AC_SY679_.jpg",
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_777526-MLB43989990776_112020-O.webp",
   },
   {
     name: "Funko Pop - Naruto (Six Path Sage) Naruto Shippuden - ",
@@ -31,7 +34,7 @@ const productsAPI = [
     name: "Funko Pop Kurama Flocked - Naruto Shippuden",
     price: 162.0,
     image:
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYzViuGK0l52aG7SeRw08vgvSAm6AwMQ_loRy6MRUiZ38bFRhsB5ixtewAYSlNipcOGChVI1guTcsNGvME0g4noxLBRFWk",
+      "https://http2.mlstatic.com/D_NQ_NP_862867-MLB46555873465_062021-O.webp",
   },
   {
     name: "Funko Pop - Minato Namikaze",
@@ -48,7 +51,14 @@ const productsAPI = [
   {
     name: "Funko Pop Naruto Sshippuden - Itachi Special",
     price: 338.0,
-    image: "https://m.media-amazon.com/images/I/51axSLjvhgL._AC_SX522_.jpg",
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_600280-CBT47404137260_092021-O.webp",
+  },
+  {
+    name: "Funko Pop Naruto Sshippuden - Gaara",
+    price: 152.0,
+    image:
+      "https://http2.mlstatic.com/D_NQ_NP_884684-MLB41919562658_052020-O.webp",
   },
 ];
 
