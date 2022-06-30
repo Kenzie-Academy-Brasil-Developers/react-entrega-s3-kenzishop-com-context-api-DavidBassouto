@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  max-height: 420px;
+  max-height: 22rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@ export const StyledUl = styled.ul`
   width: 100%;
   max-width: 600px;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   padding: 3px;
 
   gap: 5px;
@@ -29,7 +29,6 @@ export const StyledUl = styled.ul`
 `;
 
 export const StyledLi = styled.li`
-
   width: 48%;
   display: flex;
   flex-direction: column;
@@ -60,7 +59,7 @@ export const StyledLi = styled.li`
     justify-content: space-evenly;
     width: 100%;
     height: 100px;
-    p{
+    p {
       text-align: center;
       font-weight: bolder;
     }

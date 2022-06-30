@@ -10,10 +10,8 @@ export const CarrinhoProvider = ({ children }) => {
   };
 
   //lógica para remover
-  const removeCarrinho = (item) => {
-    const novoCarrinho = carrinho.filter(
-      (itemOnCart) => itemOnCart.name !== item.name
-    );
+  const removeCarrinho = (item, indexProd) => {
+    const novoCarrinho = carrinho.filter((cartPRod,index) => index !== indexProd);
     setCarrinho(novoCarrinho);
   };
 

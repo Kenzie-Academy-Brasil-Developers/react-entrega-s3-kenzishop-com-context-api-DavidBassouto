@@ -29,7 +29,7 @@ export const Carrinho = () => {
               <StyledLi key={index}>
                 <img src={produto.image} alt="funko-Naruto" />
                 <p>{produto.name}</p>
-                <button onClick={() => removeCarrinho(produto)}>
+                <button onClick={() => removeCarrinho(produto,index)}>
                   Remover Produto
                 </button>
               </StyledLi>
