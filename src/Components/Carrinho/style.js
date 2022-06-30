@@ -53,7 +53,9 @@ export const StyledLi = styled.li`
   > p {
     padding: 5px;
     font-weight: bolder;
+    color: var(--preto);
   }
+
 
   > img {
     width: 20%;
