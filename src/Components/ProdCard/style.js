@@ -14,6 +14,11 @@ export const StyledUl = styled.ul`
   max-width: 600px;
   height: 100%;
   overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
   padding: 3px;
 
   gap: 5px;
